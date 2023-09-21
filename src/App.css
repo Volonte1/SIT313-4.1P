@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(112, 195, 250);
+  padding: 20px 20px;
+}
+
+.navbar-left {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 10px;
+}
+.navbar-right a {
+  color: white;
+}
+ 
+.navbar-right a:hover{
+color: blue;
+text-decoration: underline;
+}
+
+
+.main {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  color: white ;
+  margin: 0;
+}
+
+/* CSS code for the main page, pretty basic stuff ngl */ 
